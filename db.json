@@ -1,134 +1,138 @@
 {
-   "questionnaire":"FM10S30",
-   "title":"FinaMetrica 10",
-   "questions":[
+   "questionnaire":[
       {
-         "paragraphs":[
+         "questionnaire":"FM10S30",
+         "title":"FinaMetrica 10",
+         "questions":[
             {
-               "text":"Compared to others, how do you rate your willingness to take financial risks?",
-               "htmlMarkup":false,
-               "image":false,
-               "imageHref":""
-            }
-         ],
-         "title":"Self-Rating",
-         "displayOrder":1,
-         "multipleSelect":false,
-         "id":"FM10-1",
-         "options":[
-            {
-               "text":"Extremely low risk taker.",
-               "htmlMarkup":false,
-               "image":false,
-               "imageHref":"",
+               "paragraphs":[
+                  {
+                     "text":"Compared to others, how do you rate your willingness to take financial risks?",
+                     "htmlMarkup":false,
+                     "image":false,
+                     "imageHref":""
+                  }
+               ],
+               "title":"Self-Rating",
                "displayOrder":1,
-               "id":"FM10-1-1"
+               "multipleSelect":false,
+               "id":"FM10-1",
+               "options":[
+                  {
+                     "text":"Extremely low risk taker.",
+                     "htmlMarkup":false,
+                     "image":false,
+                     "imageHref":"",
+                     "displayOrder":1,
+                     "id":"FM10-1-1"
+                  },
+                  {
+                     "text":"Very low risk taker.",
+                     "htmlMarkup":false,
+                     "image":false,
+                     "imageHref":"",
+                     "displayOrder":2,
+                     "id":"FM10-1-2"
+                  },
+                  {
+                     "text":"Low risk taker.",
+                     "htmlMarkup":false,
+                     "image":false,
+                     "imageHref":"",
+                     "displayOrder":3,
+                     "id":"FM10-1-3"
+                  }
+               ]
             },
             {
-               "text":"Very low risk taker.",
-               "htmlMarkup":false,
-               "image":false,
-               "imageHref":"",
-               "displayOrder":2,
-               "id":"FM10-1-2"
+               "paragraphs":[
+                  {
+                     "text":"Suppose that 5 years ago you bought stock in a highly regarded company. That same year the company experienced a severe decline in sales due to poor management. The price of the stock dropped drastically and you sold at a substantial loss.",
+                     "htmlMarkup":false,
+                     "image":false,
+                     "imageHref":""
+                  },
+                  {
+                     "text":"The company has been restructured under new management and most experts now expect it to produce better than average returns. Given your bad past experience with this company, would you buy stock now?",
+                     "htmlMarkup":false,
+                     "image":false,
+                     "imageHref":""
+                  }
+               ],
+               "title":"Reinvest",
+               "displayOrder":6,
+               "multipleSelect":false,
+               "id":"FM10-6",
+               "options":[
+                  {
+                     "text":"Definitely not.",
+                     "htmlMarkup":false,
+                     "image":false,
+                     "imageHref":"",
+                     "displayOrder":1,
+                     "id":"FM10-6-1"
+                  },
+                  {
+                     "text":"Probably not.",
+                     "htmlMarkup":false,
+                     "image":false,
+                     "imageHref":"",
+                     "displayOrder":2,
+                     "id":"FM10-6-2"
+                  },
+                  {
+                     "text":"Not sure.",
+                     "htmlMarkup":false,
+                     "image":false,
+                     "imageHref":"",
+                     "displayOrder":3,
+                     "id":"FM10-6-3"
+                  }
+               ]
             },
             {
-               "text":"Low risk taker.",
-               "htmlMarkup":false,
-               "image":false,
-               "imageHref":"",
-               "displayOrder":3,
-               "id":"FM10-1-3"
-            }
-         ]
-      },
-      {
-         "paragraphs":[
-            {
-               "text":"Suppose that 5 years ago you bought stock in a highly regarded company. That same year the company experienced a severe decline in sales due to poor management. The price of the stock dropped drastically and you sold at a substantial loss.",
-               "htmlMarkup":false,
-               "image":false,
-               "imageHref":""
-            },
-            {
-               "text":"The company has been restructured under new management and most experts now expect it to produce better than average returns. Given your bad past experience with this company, would you buy stock now?",
-               "htmlMarkup":false,
-               "image":false,
-               "imageHref":""
-            }
-         ],
-         "title":"Reinvest",
-         "displayOrder":6,
-         "multipleSelect":false,
-         "id":"FM10-6",
-         "options":[
-            {
-               "text":"Definitely not.",
-               "htmlMarkup":false,
-               "image":false,
-               "imageHref":"",
-               "displayOrder":1,
-               "id":"FM10-6-1"
-            },
-            {
-               "text":"Probably not.",
-               "htmlMarkup":false,
-               "image":false,
-               "imageHref":"",
-               "displayOrder":2,
-               "id":"FM10-6-2"
-            },
-            {
-               "text":"Not sure.",
-               "htmlMarkup":false,
-               "image":false,
-               "imageHref":"",
-               "displayOrder":3,
-               "id":"FM10-6-3"
-            }
-         ]
-      },
-      {
-         "paragraphs":[
-            {
-               "text":"Most investment portfolios have a mix of investments - some of the investments may have high expected returns but with high risk, some may have medium expected returns and medium risk, and some may be low-risk/low-return. (For example, stocks and real estate would be high-risk/high-return whereas cash and GICs (guaranteed investment certificates) would be low-risk/low-return.)",
-               "htmlMarkup":false,
-               "image":false,
-               "imageHref":""
-            },
-            {
-               "text":"Which mix of investments do you find most appealing? Would you prefer all low-risk/low-return, all high-risk/high-return, or somewhere in between?",
-               "htmlMarkup":false,
-               "image":false,
-               "imageHref":""
-            },
-            {
-               "text":"",
-               "htmlMarkup":false,
-               "image":true,
-               "imageHref":"https://finametrica.morningstar.com/images/pref-protfolio-en.png"
-            }
-         ],
-         "title":"Preferred Portfolio",
-         "displayOrder":8,
-         "multipleSelect":false,
-         "id":"FM10-8",
-         "options":[
-            {
-               "text":"Portfolio 1.",
-               "htmlMarkup":false,
-               "image":false,
-               "imageHref":"",
-               "displayOrder":1,
-               "id":"FM10-8-1"
-            },
-            {
-               "text":"Portfolio 2.",
-               "htmlMarkup":false,
-               "image":false,
-               "imageHref":"",
-               "displayOrder":2,
-               "id":"FM10-8-2"
+               "paragraphs":[
+                  {
+                     "text":"Most investment portfolios have a mix of investments - some of the investments may have high expected returns but with high risk, some may have medium expected returns and medium risk, and some may be low-risk/low-return. (For example, stocks and real estate would be high-risk/high-return whereas cash and GICs (guaranteed investment certificates) would be low-risk/low-return.)",
+                     "htmlMarkup":false,
+                     "image":false,
+                     "imageHref":""
+                  },
+                  {
+                     "text":"Which mix of investments do you find most appealing? Would you prefer all low-risk/low-return, all high-risk/high-return, or somewhere in between?",
+                     "htmlMarkup":false,
+                     "image":false,
+                     "imageHref":""
+                  },
+                  {
+                     "text":"",
+                     "htmlMarkup":false,
+                     "image":true,
+                     "imageHref":"https://finametrica.morningstar.com/images/pref-protfolio-en.png"
+                  }
+               ],
+               "title":"Preferred Portfolio",
+               "displayOrder":8,
+               "multipleSelect":false,
+               "id":"FM10-8",
+               "options":[
+                  {
+                     "text":"Portfolio 1.",
+                     "htmlMarkup":false,
+                     "image":false,
+                     "imageHref":"",
+                     "displayOrder":1,
+                     "id":"FM10-8-1"
+                  },
+                  {
+                     "text":"Portfolio 2.",
+                     "htmlMarkup":false,
+                     "image":false,
+                     "imageHref":"",
+                     "displayOrder":2,
+                     "id":"FM10-8-2"
+                  }
+               ]
             }
          ]
       }
